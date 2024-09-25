@@ -8,6 +8,16 @@ In November of 2018, Davids implementation was able to achieve a 94% classificat
 
 The implementation featured in this repo is however primarily based on Thomas Germer's work, who is able to achieve 94% validation set accuracy on an A100 in ~14 seconds. Thomas' version has nicely readable code that is technically quite similar to David's original. I also have taken some cues from both tysam-code and Keller Jordan's work. 
 
+
+### Motivation
+
+As a Deep Learning and PyTorch novice, my primary goal for this project was to replicate David's and Thomas' work in Python 3.10 / PyTorch 2.2 / Torchvision 0.17. In doing so, i wanted to mostly use functions and classes that are already part of the PyTorch package. This enabled me to gain an understanding of the functionality of David's and Thomas' work, but also to gain some more hands-on experience with PyTorch. 
+
+As a secondary goal, i tried to build this implementation such that i would minimise the loss in both wall time training performance and classification accuracy. However, looking at some of the other implementations mentioned above, it is clear that PyTorch-native code may not be the most efficient solution for certain components. 
+
+As this is my first foray into publishing code on github, I've attempted to post something that is sufficiently and correctly attributed, replicable, and informative. I invite readers to give me feedback by opening a New issue. 
+
+
 ### Installation & Usage
 
 This implementation was built with Torch 2.2.2 and Torchvision 0.17.2 and can (probably) only run if your machine has a cuda device. To install dependencies and run a single training run:
@@ -100,14 +110,6 @@ Over 100 test runs on a Google Colab A100, i was not able to consistently achiev
 <img src="images/minmax_val_acc.png" alt="Min max validation" width="600" height="325">
 
 The variance in the early epochs seems to suggest that a more performant learning curve is definitely possible to achieve here. Comparing the standard deviation of the mean to results of other implementations suggest that a higher consistency in convergence is also achievable.
-
-### Motivation
-
-As a Deep Learning and PyTorch novice, my primary goal for this project was to replicate David's and Thomas' work in Python 3.10 / PyTorch 2.2 / Torchvision 0.17. In doing so, i wanted to mostly use functions and classes that are already part of the PyTorch package. This enabled me to gain an understanding of the functionality of David's and Thomas' work, but also to gain some more hands-on experience with PyTorch. 
-
-As a secondary goal, i tried to build this implementation such that i would minimise the loss in both wall time training performance and classification accuracy. However, looking at some of the other implementations mentioned above, it is clear that PyTorch-native code may not be the most efficient solution for certain components. 
-
-As this is my first foray into publishing code on github, I've attempted to post something that is sufficiently and correctly attributed, replicable, and informative. I invite readers to give me feedback by opening a New issue. 
 
 
 ### Considerations
