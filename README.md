@@ -23,7 +23,7 @@ As an alternative, you can do a training run on Google Colab: [![Open In Colab](
 
 ### Example result
 
-The results below are cherry-picked  training runs on a Windows desktop with a RTX 3080 GPU and Google Colab with a A100 GPU. As it stands, the current version of my implementation is **not** able to consistently achieve over 94% classification accuracy on the validation set. 
+The results below are cherry-picked from training runs on a Windows desktop with a RTX 3080 GPU and Google Colab with a A100 GPU. As it stands, the current version of my implementation is **not** able to consistently achieve over 94% classification accuracy on the validation set. 
 
 **Windows Desktop (RTX 3080):**
 
@@ -85,7 +85,7 @@ epoch    batch    train time [sec]    validation accuracy
 
 Although this implementation should be functionally quite close to Thomas Germer's implementation, there are at the very least (possibly significant) differences between the Torch SGD optimizer and his implementation of Gradient Descent using Nesterov velocity momentum. 
 
-Over 100 test runs on a Google Colab A100, i was not able to achieve consistently 94%+ classification accuracy. Only 2 of 100 runs result in accuracy over 94% (compared to Thomas Germer's 84/100 runs achieving this.) If consistent 94%+ average performance (over 100 runs) is even possible on this repo's implementation, further tuning of the optimizer parameters is most certainly necessary. 
+Over 100 test runs on a Google Colab A100, i was not able to consistently achieve 94%+ classification accuracy. Only 2 of 100 runs result in accuracy over 94% (compared to Thomas Germer's 84/100 runs achieving this.) If consistent 94%+ average performance (over 100 runs) is even possible on this repo's implementation, further tuning of the optimizer parameters is most certainly necessary. 
 
 100 Run statistics:
 
