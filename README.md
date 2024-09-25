@@ -29,7 +29,7 @@ pip install requirements.txt
 python train.py
 ```
 
-As an alternative, you can do a training run on Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mklblm/FastCIFAR10/FastCIFAR10_demo.ipynb)
+As an alternative, you can do a training run on Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mklblm/FastCIFAR10/blob/master/FastCIFAR10_demo.ipynb)
 
 ### Example result
 
