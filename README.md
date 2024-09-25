@@ -19,7 +19,7 @@ pip install requirements.txt
 python train.py
 ```
 
-As an alternative, you can do a training run on Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mklblm/FastCIFAR10/FastCIFAR10_demo.ipynb]
+As an alternative, you can do a training run on Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mklblm/FastCIFAR10/FastCIFAR10_demo.ipynb)
 
 ### Example result
 
@@ -88,13 +88,16 @@ Although this implementation should be functionally quite close to Thomas Germer
 Over 100 test runs on a Google Colab A100, i was not able to achieve consistently 94%+ classification accuracy. Only 2 of 100 runs result in accuracy over 94% (compared to Thomas Germer's 84/100 runs achieving this.) If consistent 94%+ average performance (over 100 runs) is even possible on this repo's implementation, further tuning of the optimizer parameters is most certainly necessary. 
 
 100 Run statistics:
+
 **Max accuracy: 0.9411**
+
 **Min accuracy:  0.9224**
+
 **Mean accuracy: 0.9344 (std: 0.0032)**
 
-[mean validation](images/mean_val_acc.png)
+<img src="images/mean_val_acc.png" alt="Mean validation" width="600" height="300">
 
-[minmax_validation](images/mean_val_acc.png)
+<img src="images/minmax_val_acc.png" alt="Min max validation" width="600" height="300">
 
 The variance in the early epochs seems to suggest that a more performant learning curve is definitely possible to achieve here. Comparing the standard deviation of the mean to results of other implementations suggest that a higher consistency in convergence is also achievable.
 
