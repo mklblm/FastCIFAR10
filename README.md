@@ -95,9 +95,9 @@ Over 100 test runs on a Google Colab A100, i was not able to achieve consistentl
 
 **Mean accuracy: 0.9344 (std: 0.0032)**
 
-<img src="images/mean_val_acc.png" alt="Mean validation" width="600" height="300">
+<img src="images/mean_val_acc.png" alt="Mean validation" width="600" height="325">
 
-<img src="images/minmax_val_acc.png" alt="Min max validation" width="600" height="300">
+<img src="images/minmax_val_acc.png" alt="Min max validation" width="600" height="325">
 
 The variance in the early epochs seems to suggest that a more performant learning curve is definitely possible to achieve here. Comparing the standard deviation of the mean to results of other implementations suggest that a higher consistency in convergence is also achievable.
 
