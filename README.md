@@ -88,11 +88,8 @@ Although this implementation should be functionally quite close to Thomas Germer
 Over 100 test runs on a Google Colab A100, i was not able to achieve consistently 94%+ classification accuracy. Only 2 of 100 runs result in accuracy over 94% (compared to Thomas Germer's 84/100 runs achieving this.) If consistent 94%+ average performance (over 100 runs) is even possible on this repo's implementation, further tuning of the optimizer parameters is most certainly necessary. 
 
 100 Run statistics:
-
 **Max accuracy: 0.9411**
-
 **Min accuracy:  0.9224**
-
 **Mean accuracy: 0.9344 (std: 0.0032)**
 
 <img src="images/mean_val_acc.png" alt="Mean validation" width="600" height="325">
