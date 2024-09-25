@@ -19,7 +19,7 @@ pip install requirements.txt
 python train.py
 ```
 
-As an alternative, you can do a training run on Google Colab: [This] google colab notebook.
+As an alternative, you can do a training run on Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mklblm/FastCIFAR10/FastCIFAR10_demo.ipynb]
 
 ### Example result
 
@@ -92,7 +92,9 @@ Over 100 test runs on a Google Colab A100, i was not able to achieve consistentl
 **Min accuracy:  0.9224**
 **Mean accuracy: 0.9344 (std: 0.0032)**
 
-[insert graphs]
+[mean validation](images/mean_val_acc.png)
+
+[minmax_validation](images/mean_val_acc.png)
 
 The variance in the early epochs seems to suggest that a more performant learning curve is definitely possible to achieve here. Comparing the standard deviation of the mean to results of other implementations suggest that a higher consistency in convergence is also achievable.
 
@@ -114,6 +116,7 @@ Over the course of this project I quickly learned that numerous aspects of the n
 
 **David C. Page** 
 code: https://github.com/davidcpage/cifar10-fast
+
 and blog posts: (Some of these are missing graphics)
 * Introduction: https://web.archive.org/web/20181112163539/https://www.myrtle.ai/2018/09/24/how_to_train_your_resnet/
 * Baseline Model: https://web.archive.org/web/20181108225027mp_/https://www.myrtle.ai/2018/09/24/how_to_train_your_resnet_1
@@ -133,4 +136,5 @@ code: https://github.com/tysam-code/hlb-CIFAR10
 
 **Keller Jordan** 
 code: https://github.com/KellerJordan/cifar10-airbench
+
 paper: https://arxiv.org/abs/2404.00498
