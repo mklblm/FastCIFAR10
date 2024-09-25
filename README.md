@@ -118,6 +118,7 @@ Over the course of this project I quickly learned that numerous aspects of the n
 ### References
 
 **David C. Page** 
+
 code: https://github.com/davidcpage/cifar10-fast
 
 and blog posts: (Some of these are missing graphics)
@@ -132,12 +133,15 @@ and blog posts: (Some of these are missing graphics)
 * Bag of Tricks: https://web.archive.org/web/20230210004747/https://myrtle.ai/learn/how-to-train-your-resnet-8-bag-of-tricks/
 
 **Thomas Germer** 
+
 code: https://github.com/99991/cifar10-fast-simple
 
 **Fern** (tysam-code)
+
 code: https://github.com/tysam-code/hlb-CIFAR10
 
 **Keller Jordan** 
+
 code: https://github.com/KellerJordan/cifar10-airbench
 
 paper: https://arxiv.org/abs/2404.00498
