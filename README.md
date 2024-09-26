@@ -114,7 +114,7 @@ The variance in the early epochs seems to suggest that a more performant learnin
 
 ### Considerations
 
-Over the course of this project I quickly learned that numerous aspects of the network architecture, training setup and optimisation tricks are well above my "pay grade" at this point in my career as an aspiring ML engineer. Achieving world-record performance on this task requires one to be well-versed in a number of topics in both general computer science and machine learning. Instead of parroting information I only superficially understand, I implore those interested to read Keller Jordan's paper on his implementation - especially the Methods section. His explanation of the used techniques is well-written. For those seeking more historical context, Internet Archive versions of David's posts are linked below. 
+Over the course of this project I quickly learned that numerous aspects of the network architecture, training setup and optimisation tricks are well above my "pay grade" at this point in my career as an aspiring ML engineer. Achieving world-record performance on this task requires one to be well-versed in both writing efficient code and machine learning. Instead of parroting information I only superficially understand, I implore those interested to read Keller Jordan's paper on his implementation - especially the Methods section. His explanation of the used techniques is well-written. For those seeking more historical context, Internet Archive versions of David's posts are linked below. 
 
 
 ### References
